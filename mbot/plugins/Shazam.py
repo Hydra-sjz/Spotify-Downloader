@@ -120,7 +120,7 @@ async def shazam_(client, message):
 
 <b><u>Shazamed By @Spotify_downloa_bot</b></u>
     """
-    await sts.delete()
+    #await sts.delete()
     if thumb:
         await msg.delete()
         await message.reply_to_message.reply_photo(thumb, caption=caption, quote=True)
